@@ -1,0 +1,21 @@
+* {
+    width: auto;
+    height: auto;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+li {
+    text-decoration: none;
+    cursor: pointer;
+}
